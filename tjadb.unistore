@@ -4,7 +4,7 @@
         "author": "MarioGames",
         "description": "We have prepared recommended scores that can be used with TJAP_3DS etc.",
         "file": "tjadb.unistore",
-        "url": "https://github.com/LuMariGames/tjadb/tjadb.unistore",
+        "url": "https://github.com/LuMariGames/tjadb/raw/main/tjadb.unistore",
         "sheet": "tjadb.t3x",
         "sheetURL": "https://github.com/LuMariGames/tjadb/raw/main/tjadb.t3x",
         "bg_index": 0,
@@ -17,7 +17,7 @@
             "info":{
                "title":"ジャンル別ALLSONGパック",
                "author":"MarioGames",
-               "version":"1.0",
+               "version":"v2.1.1A",
                "category":["PACK"],
                "console":["3DS"],
                "description":"",
@@ -173,7 +173,7 @@
             "info":{
                "title":"ヌーメノン",
                "author":"豆カカオ feat.初音ミク",
-               "version":"1.0",
+               "version":"v2.1.1",
                "category":["VOCALOID"],
                "console":["3DS"],
                "description":"",
@@ -209,7 +209,7 @@
             "info":{
                "title":"なぜ？謎？！ANSWER",
                "author":"「名探偵プリキュア！」より",
-               "version":"1.0",
+               "version":"v2.1.0",
                "category":["ANIME"],
                "console":["3DS"],
                "description":"",
