@@ -16,7 +16,7 @@
          {
             "info":{
                "title":"ジャンル別ALLSONGパック",
-               "author":"マリオ村長",
+               "author":"MarioGames",
                "version":"1.0",
                "category":["PACK"],
                "console":["3DS"],
@@ -29,7 +29,7 @@
                "last_updated":"2000-01-01 09:00"
             },
             "VOCALOID":{
-               "size":"326 MB",
+               "size":"311 MiB",
                "script":[
                   {
                       "type": "promptMessage",
@@ -39,22 +39,22 @@
                   {
                      "type": "downloadFile",
                      "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AMlhMAMlsvvtiB4fcdDy-YU/00-MarioGames/vocaloid?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
-                     "output": "sdmc:/tjafiles/vocaloid.zip"
+                     "output": "sdmc:/tjafiles/temptja.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/tjafiles/vocaloid.zip",
+                     "file": "sdmc:/tjafiles/temptja.zip",
                      "input": "",
                      "output": "sdmc:/tjafiles/Vocaloid/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/tjafiles/vocaloid.zip"
+                     "file": "sdmc:/tjafiles/temptja.zip"
                   }
                ]
             },
             "バラエティ":{
-               "size":"197 MB",
+               "size":"187 MiB",
                "script":[
                   {
                       "type": "promptMessage",
@@ -64,22 +64,22 @@
                   {
                      "type": "downloadFile",
                      "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/ACJ59KpNO0Cv7SFAQzCKBcU/00-MarioGames/variety?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
-                     "output": "sdmc:/tjafiles/variety.zip"
+                     "output": "sdmc:/tjafiles/temptja.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/tjafiles/variety.zip",
+                     "file": "sdmc:/tjafiles/temptja.zip",
                      "input": "",
                      "output": "sdmc:/tjafiles/Variety/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/tjafiles/variety.zip"
+                     "file": "sdmc:/tjafiles/temptja.zip"
                   }
                ]
             },
             "ポップス":{
-               "size":"56.07 MB",
+               "size":"53.47 MiB",
                "script":[
                   {
                       "type": "promptMessage",
@@ -89,20 +89,157 @@
                   {
                      "type": "downloadFile",
                      "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AB8OKjeRcRleVmd933WFdSo/00-MarioGames/pops?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
-                     "output": "sdmc:/tjafiles/pops.zip"
+                     "output": "sdmc:/tjafiles/temptja.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/tjafiles/pops.zip",
+                     "file": "sdmc:/tjafiles/temptja.zip",
                      "input": "",
                      "output": "sdmc:/tjafiles/Pops/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/tjafiles/pops.zip"
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  }
+               ]
+            },
+            "ゲームミュージック&キッズ":{
+               "size":"32.74 MiB",
+               "script":[
+                  {
+                      "type": "promptMessage",
+                      "message": "このファイルのダウンロードには時間が掛かります。\nそれでもよろしいですか？",
+                      "count": 6
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AOLl2_68wsYokxhalW4-VxY/00-MarioGames/gamemusic?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Gamemusic/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/ALXps0FxFFHZfHkN83hvJ2k/00-MarioGames/kids?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Kids/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  }
+               ]
+            },
+            "アニメ":{
+               "size":"109 MiB",
+               "script":[
+                  {
+                      "type": "promptMessage",
+                      "message": "このファイルのダウンロードには時間が掛かります。\nそれでもよろしいですか？",
+                      "count": 3
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AI34V81HYRraE2xO5IKtZgs/00-MarioGames/anime?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Anime/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
                   }
                ]
             }
-         }
+         },
+         {
+            "info":{
+               "title":"ヌーメノン",
+               "author":"豆カカオ feat.初音ミク",
+               "version":"1.0",
+               "category":["VOCALOID"],
+               "console":["3DS"],
+               "description":"",
+               "license":"unknown",
+               "releasenotes":"「もしそこにアナタがいたら、ラクだったのかな。」\n\nIllust:なゆた\nChart:MarioGames",
+               "screenshots":[],
+               "icon_index":1,
+               "sheet_index":0,
+               "last_updated":"2000-01-01 09:00"
+            },
+            "TJA Download":{
+               "size":"2.91 MiB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AF_0kVGSJOOsHi48d6Ek7qg/00-MarioGames/vocaloid/237%2C%E3%83%8C%E3%83%BC%E3%83%A1%E3%83%8E%E3%83%B3?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/237,ヌーメノン/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"なぜ？謎？！ANSWER",
+               "author":"「名探偵プリキュア！」より",
+               "version":"1.0",
+               "category":["ANIME"],
+               "console":["3DS"],
+               "description":"",
+               "license":"unknown",
+               "releasenotes":"「はなまる解決！」\n\nIllust:Masami(Pixiv)\nChart:MarioGames",
+               "screenshots":[],
+               "icon_index":1,
+               "sheet_index":0,
+               "last_updated":"2000-01-01 09:00"
+            },
+            "TJA Download":{
+               "size":"1.38 MiB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AMml6SocaJmodjUjaikiL_8/00-MarioGames/anime/228%2C%E3%81%AA%E3%81%9C%EF%BC%9F%E8%AC%8E%EF%BC%9F%EF%BC%81ANSWER?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/228,なぜ？謎？！ANSWER/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  }
+               ]
+            }
+         },
       ]
    }
