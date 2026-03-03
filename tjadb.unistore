@@ -1,0 +1,108 @@
+{
+    "storeInfo": {
+        "title": "MGames TJA Store",
+        "author": "MarioGames",
+        "description": "We have prepared recommended scores that can be used with TJAP_3DS etc.",
+        "file": "tjadb.unistore",
+        "url": "https://github.com/LuMariGames/tjadb/tjadb.unistore",
+        "sheet": "tjadb.t3x",
+        "sheetURL": "https://github.com/LuMariGames/tjadb/raw/main/tjadb.t3x",
+        "bg_index": 0,
+        "bg_sheet": 0,
+        "revision": 0,
+        "version": 3
+    },
+    "storeContent": [
+         {
+            "info":{
+               "title":"ジャンル別ALLSONGパック",
+               "author":"マリオ村長",
+               "version":"1.0",
+               "category":["PACK"],
+               "console":["3DS"],
+               "description":"",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots":[],
+               "icon_index":1,
+               "sheet_index":0,
+               "last_updated":"2000-01-01 09:00"
+            },
+            "VOCALOID":{
+               "size":"326 MB",
+               "script":[
+                  {
+                      "type": "promptMessage",
+                      "message": "このファイルのダウンロードには時間が掛かります。\nそれでもよろしいですか？",
+                      "count": 3
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AMlhMAMlsvvtiB4fcdDy-YU/00-MarioGames/vocaloid?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/vocaloid.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/vocaloid.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Vocaloid/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/vocaloid.zip"
+                  }
+               ]
+            },
+            "バラエティ":{
+               "size":"197 MB",
+               "script":[
+                  {
+                      "type": "promptMessage",
+                      "message": "このファイルのダウンロードには時間が掛かります。\nそれでもよろしいですか？",
+                      "count": 3
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/ACJ59KpNO0Cv7SFAQzCKBcU/00-MarioGames/variety?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/variety.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/variety.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Variety/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/variety.zip"
+                  }
+               ]
+            },
+            "ポップス":{
+               "size":"56.07 MB",
+               "script":[
+                  {
+                      "type": "promptMessage",
+                      "message": "このファイルのダウンロードには時間が掛かります。\nそれでもよろしいですか？",
+                      "count": 3
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AB8OKjeRcRleVmd933WFdSo/00-MarioGames/pops?rlkey=im8bi470o2qiy9dxn4xusxnmt&raw=1",
+                     "output": "sdmc:/tjafiles/pops.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/pops.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/Pops/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/pops.zip"
+                  }
+               ]
+            },
+         },
+      ]
+   }
