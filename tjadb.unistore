@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/LuMariGames/tjadb/raw/main/tjadb.t3x",
         "bg_index": 0,
         "bg_sheet": 0,
-        "revision": 0,
+        "revision": 1,
         "version": 3
     },
     "storeContent": [
@@ -102,7 +102,7 @@
                      "file": "sdmc:/tjafiles/pops.zip"
                   }
                ]
-            },
-         },
+            }
+         }
       ]
    }
