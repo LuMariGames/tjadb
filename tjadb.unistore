@@ -17,7 +17,7 @@
             "info":{
                "title":"ALLSONGパック",
                "author":"MarioGames",
-               "version":"v2.1.1A",
+               "version":"v2.1.1(A)",
                "category":["PACK"],
                "console":["3DS"],
                "description":"",
@@ -385,3 +385,4 @@
          }
       ]
    }
+
