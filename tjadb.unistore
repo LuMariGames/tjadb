@@ -398,6 +398,42 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"愛とときめきのマカロナージュ",
+               "author":"「キラキラ☆プリキュアアラモード」より",
+               "version":"v2.1.1(A)",
+               "category":["ANIME"],
+               "console":["3DS"],
+               "description":"",
+               "license":"unknown",
+               "releasenotes":"「大切を傷つけて...」\n\nIllust:Masami(Pixiv)\nChart:MarioGames",
+               "screenshots":[],
+               "icon_index":1,
+               "sheet_index":0,
+               "last_updated":"2026-03-19 00:00"
+            },
+            "TJA Download":{
+               "size":"4 MiB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://www.dropbox.com/scl/fo/mrqcdfczdfdmfd802awz7/AKmhuPEyf2NVmkjHk7s0_tg/00-MarioGames/anime/240%2C愛とときめきのマカロナージュ(FULL)?rlkey=im8bi470o2qiy9dxn4xusxnmt&e=1&raw=1",
+                     "output": "sdmc:/tjafiles/temptja.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/tjafiles/temptja.zip",
+                     "input": "",
+                     "output": "sdmc:/tjafiles/240,愛とときめきのマカロナージュ(FULL)/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/tjafiles/temptja.zip"
+                  }
+               ]
+            }
          }
       ]
    }
